@@ -31,6 +31,7 @@ twitter link: https://twitter.com/dylandrechsel
 
 ### Day 6 April 12th, 2021 
 **Coding Challenge (a-very-big-sum.py)**: Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
+
 **Coding Challenge Complete?: Yes
 
 ### Day 7 April 13th, 2021 
