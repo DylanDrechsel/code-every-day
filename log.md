@@ -26,11 +26,24 @@ twitter link: https://twitter.com/dylandrechsel
 ### Day 4: April 10th, 2021 
 **Links to today's work:** Today I started my react native project to just display a map on the screen and pull the users location data. I am having some weird errors with MapBoxGL for react native. I am going to look more into it and see what the issue is. Right now it seems like its an issue with my node_modules
 
-### Day 5: April 11h, 2021 
+### Day 5: April 11th, 2021 
 **Links to today's work:** Still working on my react native project. (https://github.com/DylanDrechsel/react-native). Found this really cool npm package (https://www.npmjs.com/package/react-native-device-info). However, I am getting similar issues to the MapBoxGL install. It seems to be a pathing issue which i hope to have sloved soon!
 
-### Day 6 April 12h, 2021 
+### Day 6 April 12th, 2021 
 **Coding Challenge (a-very-big-sum.py)**: Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
+**Coding Challenge Complete?: Yes
+
+### Day 7 April 13th, 2021 
+**Coding Challenge (grading-students.py)**: HackerLand University has the following grading policy:
+
+Every student receives a grade in the inclusive range from 0 to 100 .
+Any grade less than 40 is a failing grade.
+
+Sam is a professor at the university and likes to round each student's  according to these rules:
+
+If the difference between the grade and the next multiple of 5 is less than 3, round grade up to the next multiple of 5.
+If the value of grade is less than 38, no rounding occurs as the result will still be a failing grade.
+
 **Coding Challenge Complete?: Yes
 
 
