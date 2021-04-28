@@ -1,12 +1,13 @@
-# 100 Days Of Code - Log
+<h1 align='center'># 100 Days Of Code - Log</h1>
 
-### Day 1: April 19th, 2021 
+<h3 align='center'>### Day 1: April 19th, 2021</h3> 
 
 **Today's Progress**: Set up my Twitter account and started thinking of ideas for my capstone project. 
 
-twitter link: https://twitter.com/dylandrechsel
+**Twitter Link:** https://twitter.com/dylandrechsel
 
 **Coding Challenge (counting-the-bits.js)**: Write a function called countTheBits that accepts a single numeric argument that will be an integer. The function should return the number of bits set to 1 in the number's binary representation.
+
 **Coding Challenge Complete?:** Yes
 
 ### Day 2: April 20th, 2021 
@@ -14,6 +15,7 @@ twitter link: https://twitter.com/dylandrechsel
 **Today's Progress**: Started learning Python3 which has been a delight. I think I will start using it as the main language in my coding challenges. Did more reseach into React Native and get the project files ready for tomorrow.
 
 **Coding Challenge (time-converter.js)**: Write a function that takes the current standard time and converts it into military time.
+
 **Coding Challenge Complete?:** Yes
 
 ### Day 3: April 21th, 2021 
@@ -21,6 +23,7 @@ twitter link: https://twitter.com/dylandrechsel
 **Today's Progress**: Used python for the coding challenge today and I have to say its really growing on me. I love how its indent based instead of curly brackets. Very Cool! Also started to program my unnamed React Native app. Will post the link to the repo below!
 
 **Coding Challenge (fatorial.py)**: Write a function that takes a number and returns the factorial of the number.
+
 **Coding Challenge Complete?:** Yes
 
 ### Day 4: April 22th, 2021 
