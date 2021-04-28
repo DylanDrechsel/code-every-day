@@ -54,7 +54,7 @@ If the value of grade is less than 38, no rounding occurs as the result will sti
 
 **Coding Challenge Complete?:** Yes
 
-<h3 align='center'>Day 8 April 27th, 2021</h3? 
+<h3 align='center'>Day 8 April 27th, 2021</h3>
   
 **Today's Progress**: Presented my capstone project yesterday and was really happy with the result. I hit a lot of my strech goals and was able to get farther then I thought I would. Now to start building my Portfoilo website and I do want to mess around with React Native
 **Coding Challenge (defanging-an-ip-address.py)**: Given a valid (IPv4) IP address, return a defanged version of that IP address.
