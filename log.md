@@ -47,9 +47,23 @@ If the value of grade is less than 38, no rounding occurs as the result will sti
 
 **Coding Challenge Complete?: Yes
 
-### Day 7 April 27th, 2021 
+### Day 8 April 27th, 2021 
 **Coding Challenge (defanging-an-ip-address.py)**: Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
 A defanged IP address replaces every period "." with "[.]".
+
+**Coding Challenge Complete?: Yes
+
+### Day 9 April 28th, 2021 
+**Coding Challenge (defanging-an-ip-address.py)**: Given a string s and an integer array indices of the same length.
+
+The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
+
+Return the shuffled string.
+
+**Example
+```Input: s = "codeleet", indices = [4,5,6,7,0,1,2,3]
+Output: "leetcode"
+Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.```
 
 **Coding Challenge Complete?: Yes
