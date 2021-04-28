@@ -1,6 +1,6 @@
-<h1 align='center'># 100 Days Of Code - Log</h1>
+<h1 align='center'>100 Days Of Code - Log</h1>
 
-<h3 align='center'>### Day 1: April 19th, 2021</h3> 
+<h3 align='center'>Day 1: April 19th, 2021</h3> 
 
 **Today's Progress**: Set up my Twitter account and started thinking of ideas for my capstone project. 
 
@@ -10,7 +10,7 @@
 
 **Coding Challenge Complete?:** Yes
 
-### Day 2: April 20th, 2021 
+<h3 align='center'>Day 2: April 20th, 2021</h3>
 
 **Today's Progress**: Started learning Python3 which has been a delight. I think I will start using it as the main language in my coding challenges. Did more reseach into React Native and get the project files ready for tomorrow.
 
@@ -18,7 +18,7 @@
 
 **Coding Challenge Complete?:** Yes
 
-### Day 3: April 21th, 2021 
+<h3 align='center'>Day 3: April 21th, 2021</h3> 
 
 **Today's Progress**: Used python for the coding challenge today and I have to say its really growing on me. I love how its indent based instead of curly brackets. Very Cool! Also started to program my unnamed React Native app. Will post the link to the repo below!
 
@@ -26,18 +26,18 @@
 
 **Coding Challenge Complete?:** Yes
 
-### Day 4: April 22th, 2021 
+<h3 align='center'>Day 4: April 22th, 2021</h3>
 **Today's Progress**: **https://github.com/DylanDrechsel/dungeon-dive** Today I started working on my capstone project. I decided to do a Gameboy inspired 8-bit web app with React.js. Im going to start doing research about what I will need this evening.
 
-### Day 5: April 23th, 2021 
+<h3 align='center'>Day 5: April 23th, 2021</h3> 
 **Today's Progress**: **https://github.com/DylanDrechsel/dungeon-dive** Continued to work on my capstone project and got the Sprite to render on the screen and be able to move around. I am going to trying to get the Sprite to have moving animations next.
 
-### Day 6 April 24th, 2021 
+<h3 align='center'>Day 6 April 24th, 2021</h3>
 **Coding Challenge (a-very-big-sum.py)**: Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
 
 **Coding Challenge Complete?:** Yes
 
-### Day 7 April 26th, 2021 
+<h3 align='center'>Day 7 April 26th, 2021</h3> 
 **Coding Challenge (grading-students.py)**: HackerLand University has the following grading policy:
 
 Every student receives a grade in the inclusive range from 0 to 100 .
@@ -50,7 +50,7 @@ If the value of grade is less than 38, no rounding occurs as the result will sti
 
 **Coding Challenge Complete?:** Yes
 
-### Day 8 April 27th, 2021 
+<h3 align='center'>Day 8 April 27th, 2021</h3? 
 **Today's Progress**: Presented my capstone project yesterday and was really happy with the result. I hit a lot of my strech goals and was able to get farther then I thought I would. Now to start building my Portfoilo website and I do want to mess around with React Native
 **Coding Challenge (defanging-an-ip-address.py)**: Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
@@ -58,7 +58,7 @@ A defanged IP address replaces every period "." with "[.]".
 
 **Coding Challenge Complete?:** Yes
 
-### Day 9 April 28th, 2021 
+<h3 align='center'>Day 9 April 28th, 2021</h3>
 **Coding Challenge (defanging-an-ip-address.py)**: Given a string s and an integer array indices of the same length.
 
 The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
