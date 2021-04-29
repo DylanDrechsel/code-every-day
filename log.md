@@ -1,5 +1,7 @@
 <h1 align='center'>100 Days Of Code - Log</h1>
 
+---
+
 <h3 align='center'>Day 10 April 29th, 2021</h3>
 
 **Coding Challenge (truncate-sentences.py)**: A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation).
@@ -21,6 +23,8 @@ Hence, you should return "Hello how are you".
 
 **Coding Challenge Complete?:** Yes
 
+---
+
 <h3 align='center'>Day 9 April 28th, 2021</h3>
 
 **Coding Challenge (defanging-an-ip-address.py)**: Given a string s and an integer array indices of the same length.
@@ -38,6 +42,8 @@ Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
 ```
 
 **Coding Challenge Complete?:** Yes
+
+---
 
 <h3 align='center'>Day 8 April 27th, 2021</h3>
   
@@ -62,19 +68,27 @@ If the value of grade is less than 38, no rounding occurs as the result will sti
 
 **Coding Challenge Complete?:** Yes
 
+---
+
 <h3 align='center'>Day 6 April 24th, 2021</h3>
 
 **Coding Challenge (a-very-big-sum.py)**: Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
 
 **Coding Challenge Complete?:** Yes
 
+---
+
 <h3 align='center'>Day 5: April 23th, 2021</h3> 
 
 **Today's Progress**: **https://github.com/DylanDrechsel/dungeon-dive** Continued to work on my capstone project and got the Sprite to render on the screen and be able to move around. I am going to trying to get the Sprite to have moving animations next.
 
+---
+
 <h3 align='center'>Day 4: April 22th, 2021</h3>
 
 **Today's Progress**: **https://github.com/DylanDrechsel/dungeon-dive** Today I started working on my capstone project. I decided to do a Gameboy inspired 8-bit web app with React.js. Im going to start doing research about what I will need this evening.
+
+---
 
 <h3 align='center'>Day 3: April 21th, 2021</h3> 
 
@@ -86,11 +100,15 @@ If the value of grade is less than 38, no rounding occurs as the result will sti
 
 <h3 align='center'>Day 2: April 20th, 2021</h3>
 
+---
+
 **Today's Progress**: Started learning Python3 which has been a delight. I think I will start using it as the main language in my coding challenges. Did more reseach into React Native and get the project files ready for tomorrow.
 
 **Coding Challenge (time-converter.js)**: Write a function that takes the current standard time and converts it into military time.
 
 **Coding Challenge Complete?:** Yes
+
+---
 
 <h3 align='center'>Day 1: April 19th, 2021</h3> 
 
