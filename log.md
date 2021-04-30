@@ -2,6 +2,36 @@
 
 ---
 
+<h3 align='center'>Day 11 April 30th, 2021</h3>
+
+**Coding Challenge (sum-of-odd-length-subarrays.py)**: Given an array of positive integers arr, calculate the sum of all possible odd-length subarrays.
+
+A subarray is a contiguous subsequence of the array.
+
+Return the sum of all odd-length subarrays of arr.
+
+**Example**
+
+```
+Input: arr = [1,4,2,5,3]
+Output: 58
+Explanation: The odd-length subarrays of arr and their sums are:
+[1] = 1
+[4] = 4
+[2] = 2
+[5] = 5
+[3] = 3
+[1,4,2] = 7
+[4,2,5] = 11
+[2,5,3] = 10
+[1,4,2,5,3] = 15
+If we add all these together we get 1 + 4 + 2 + 5 + 3 + 7 + 11 + 10 + 15 = 58
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 10 April 29th, 2021</h3>
 
 **Coding Challenge (truncate-sentences.py)**: A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation).
