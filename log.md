@@ -2,6 +2,23 @@
 
 ---
 
+<h3 align='center'>Day 12 May 1st, 2021</h3>
+
+**Coding Challenge (richest-customer-wealth.py)**: You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
+
+A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+
+**Example**
+
+```
+Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
+Output: 17
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 11 April 30th, 2021</h3>
 
 **Coding Challenge (sum-of-odd-length-subarrays.py)**: Given an array of positive integers arr, calculate the sum of all possible odd-length subarrays.
