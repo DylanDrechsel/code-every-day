@@ -2,6 +2,27 @@
 
 ---
 
+<h3 align='center'>Day 13 May 2nd, 2021</h3>
+
+**Coding Challenge (check-two-strings-are-equivalent.py)**: Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
+
+A string is represented by an array if the array elements concatenated in order forms the string.
+
+**Example**
+
+```
+Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
+Output: true
+Explanation:
+word1 represents string "ab" + "c" -> "abc"
+word2 represents string "a" + "bc" -> "abc"
+The strings are the same, so return true.
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 12 May 1st, 2021</h3>
 
 **Coding Challenge (richest-customer-wealth.py)**: You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
