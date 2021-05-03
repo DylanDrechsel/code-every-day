@@ -2,6 +2,24 @@
 
 ---
 
+<h3 align='center'>Day 14 May 3rd, 2021</h3>
+
+**Coding Challenge (reverse-words-in-a-string.py)**: Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+**Example**
+
+```
+Input: s = "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+
+Input: s = "God Ding"
+Output: "doG gniD"
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 13 May 2nd, 2021</h3>
 
 **Coding Challenge (check-two-strings-are-equivalent.py)**: Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
