@@ -2,6 +2,29 @@
 
 ---
 
+<h3 align='center'>Day 15 May 4th, 2021</h3>
+
+**Coding Challenge (count-consistent-strings.py)**: You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
+
+Return the number of consistent strings in the array words.
+
+**Example**
+
+```
+Input: allowed = "ab", words = ["ad","bd","aaab","baa","badab"]
+Output: 2
+Explanation: Strings "aaab" and "baa" are consistent since they only contain characters 'a' and 'b'.
+
+Input: allowed = "abc", words = ["a","b","c","ab","ac","bc","abc"]
+Output: 7
+Explanation: All strings are consistent.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 14 May 3rd, 2021</h3>
 
 **Coding Challenge (reverse-words-in-a-string.py)**: Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
