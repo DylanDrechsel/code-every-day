@@ -2,6 +2,57 @@
 
 ---
 
+<h3 align='center'>Day 16 May 5th, 2021</h3>
+
+**Coding Challenge One (determine-if-string-halves-are-alike.py)**: You are given a string s of even length. Split this string into two halves of equal lengths, and let a be the first half and b be the second half.
+
+Two strings are alike if they have the same number of vowels ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'). Notice that s contains uppercase and lowercase letters.
+
+Return true if a and b are alike. Otherwise, return false.
+
+**Example**
+
+```
+Input: s = "book"
+Output: true
+Explanation: a = "bo" and b = "ok". a has 1 vowel and b has 1 vowel. Therefore, they are alike.
+
+Input: s = "textbook"
+Output: false
+Explanation: a = "text" and b = "book". a has 1 vowel whereas b has 2. Therefore, they are not alike.
+Notice that the vowel o is counted twice.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge Two (sign-of-the-product-of-a-list.py)**: There is a function signFunc(x) that returns:
+
+- 1 if x is positive.
+- -1 if x is negative.
+- 0 if x is equal to 0. <br />
+
+You are given an integer array nums. Let product be the product of all values in the array nums.
+
+Return the sign of product.
+
+**Example**
+
+```
+Input: nums = [-1,-2,-3,-4,3,2,1]
+Output: 1
+Explanation: The product of all values in the array is 144, and signFunc(144) = 1
+
+Input: nums = [1,5,0,2,-3]
+Output: 0
+Explanation: The product of all values in the array is 0, and signFunc(0) = 0
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 15 May 4th, 2021</h3>
 
 **Coding Challenge (count-consistent-strings.py)**: You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
