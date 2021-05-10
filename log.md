@@ -2,6 +2,44 @@
 
 ---
 
+<h3 align='center'>Day 20 May 10th, 2021</h3>
+
+**Coding Challenge (kids-with-candies.py)**: Given an array of integers nums.
+
+A pair (i,j) is called good if nums[i] == nums[j] and i < j.
+
+Return the number of good pairs.
+
+**Example**
+
+```
+Input: nums = [1,2,3,1,1,3]
+Output: 4
+Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (jewels-and-stones.py)**: You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
+
+Letters are case sensitive, so "a" is considered a different type of stone from "A".
+
+**Example**
+
+```
+Input: jewels = "aA", stones = "aAAbbbb"
+Output: 3
+
+Input: jewels = "z", stones = "ZZ"
+Output: 0
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 19 May 9th, 2021</h3>
 
 **Coding Challenge (kids-with-candies.py)**: Given the array candies and the integer extraCandies, where candies[i] represents the number of candies that the ith kid has.
