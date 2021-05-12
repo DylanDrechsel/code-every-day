@@ -2,6 +2,45 @@
 
 ---
 
+<h3 align='center'>Day 22 May 12th, 2021</h3>
+
+**Coding Challenge (subtract-the-product-and-sum-of-digits-of-an-integer.py)**: Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+
+**Example**
+
+```
+Input: n = 234
+Output: 15 
+Explanation: 
+Product of digits = 2 * 3 * 4 = 24 
+Sum of digits = 2 + 3 + 4 = 9 
+Result = 24 - 9 = 15
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (number-of-steps-to-reduce-a-number-to-zero.py)**: Given a non-negative integer num, return the number of steps to reduce it to zero. If the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+
+**Example**
+
+```
+Input: num = 14
+Output: 6
+Explanation: 
+Step 1) 14 is even; divide by 2 and obtain 7. 
+Step 2) 7 is odd; subtract 1 and obtain 6.
+Step 3) 6 is even; divide by 2 and obtain 3. 
+Step 4) 3 is odd; subtract 1 and obtain 2. 
+Step 5) 2 is even; divide by 2 and obtain 1. 
+Step 6) 1 is odd; subtract 1 and obtain 0.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 21 May 11th, 2021</h3>
 
 **Coding Challenge (how-many-numbers-are-smaller-than-current.py)**: Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j's such that j != i and nums[j] < nums[i].
