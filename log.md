@@ -2,38 +2,41 @@
 
 ---
 
-<h3 align='center'>Day 22 May 12th, 2021</h3>
+<h3 align='center'>Day 23 May 13th, 2021</h3>
 
-**Coding Challenge (subtract-the-product-and-sum-of-digits-of-an-integer.py)**: Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+**Coding Challenge (decompress-run-length-encoded-list.py)**: We are given a list nums of integers representing a list compressed with run-length encoding.
+
+Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (with i >= 0).  For each such pair, there are freq elements with value val concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list.
+
+Return the decompressed list.
 
 **Example**
 
 ```
-Input: n = 234
-Output: 15 
-Explanation: 
-Product of digits = 2 * 3 * 4 = 24 
-Sum of digits = 2 + 3 + 4 = 9 
-Result = 24 - 9 = 15
+Input: nums = [1,2,3,4]
+Output: [2,4,4,4]
+Explanation: The first pair [1,2] means we have freq = 1 and val = 2 so we generate the array [2].
+The second pair [3,4] means we have freq = 3 and val = 4 so we generate [4,4,4].
+At the end the concatenation [2] + [4,4,4] is [2,4,4,4].
 
 ```
 
 **Coding Challenge Complete?:** Yes
 
-**Coding Challenge (number-of-steps-to-reduce-a-number-to-zero.py)**: Given a non-negative integer num, return the number of steps to reduce it to zero. If the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+**Coding Challenge (decode-xored-array.py)**: There is a hidden integer array arr that consists of n non-negative integers.
+
+It was encoded into another integer array encoded of length n - 1, such that encoded[i] = arr[i] XOR arr[i + 1]. For example, if arr = [1,0,2,1], then encoded = [1,2,3].
+
+You are given the encoded array. You are also given an integer first, that is the first element of arr, i.e. arr[0].
+
+Return the original array arr. It can be proved that the answer exists and is unique.
 
 **Example**
 
 ```
-Input: num = 14
-Output: 6
-Explanation: 
-Step 1) 14 is even; divide by 2 and obtain 7. 
-Step 2) 7 is odd; subtract 1 and obtain 6.
-Step 3) 6 is even; divide by 2 and obtain 3. 
-Step 4) 3 is odd; subtract 1 and obtain 2. 
-Step 5) 2 is even; divide by 2 and obtain 1. 
-Step 6) 1 is odd; subtract 1 and obtain 0.
+Input: encoded = [1,2,3], first = 1
+Output: [1,0,2,1]
+Explanation: If arr = [1,0,2,1], then first = 1 and encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]
 
 ```
 
