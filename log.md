@@ -4,6 +4,55 @@
 
 <h3 align='center'>Day 23 May 13th, 2021</h3>
 
+**Coding Challenge (goal-parser-interpretation.py)**: You own a Goal Parser that can interpret a string command. The command consists of an alphabet of "G", "()" and/or "(al)" in some order. The Goal Parser will interpret "G" as the string "G", "()" as the string "o", and "(al)" as the string "al". The interpreted strings are then concatenated in the original order.
+
+Given the string command, return the Goal Parser's interpretation of command.
+
+**Example**
+
+```
+Input: command = "G()(al)"
+Output: "Goal"
+Explanation: The Goal Parser interprets the command as follows:
+G -> G
+() -> o
+(al) -> al
+The final concatenated result is "Goal".
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (create-target-array-in-the-given-order.py)**: Given two arrays of integers nums and index. Your task is to create target array under the following rules:
+
+Initially target array is empty.
+From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array.
+Repeat the previous step until there are no elements to read in nums and index.
+Return the target array.
+
+It is guaranteed that the insertion operations will be valid.
+
+**Example**
+
+```
+Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
+Output: [0,4,1,3,2]
+Explanation:
+nums       index     target
+0            0        [0]
+1            1        [0,1]
+2            2        [0,1,2]
+3            2        [0,1,3,2]
+4            1        [0,4,1,3,2]
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
+<h3 align='center'>Day 23 May 13th, 2021</h3>
+
 **Coding Challenge (decompress-run-length-encoded-list.py)**: We are given a list nums of integers representing a list compressed with run-length encoding.
 
 Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (with i >= 0).  For each such pair, there are freq elements with value val concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list.
