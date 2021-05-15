@@ -2,7 +2,48 @@
 
 ---
 
-<h3 align='center'>Day 23 May 13th, 2021</h3>
+<h3 align='center'>Day 25 May 15th, 2021</h3>
+
+**Coding Challenge (count-items-matching-a-rule.py)**: You are given an array items, where each items[i] = [typei, colori, namei] describes the type, color, and name of the ith item. You are also given a rule represented by two strings, ruleKey and ruleValue.
+
+The ith item is said to match the rule if one of the following is true:
+
+ruleKey == "type" and ruleValue == typei.
+ruleKey == "color" and ruleValue == colori.
+ruleKey == "name" and ruleValue == namei.
+Return the number of items that match the given rule
+
+**Example**
+
+```
+Input: items = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], ruleKey = "color", ruleValue = "silver"
+Output: 1
+Explanation: There is only one item matching the given rule, which is ["computer","silver","lenovo"].
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (split-a-string-in-balanced-strings.py)**: Balanced strings are those that have an equal quantity of 'L' and 'R' characters.
+
+Given a balanced string s, split it in the maximum amount of balanced strings.
+
+Return the maximum amount of split balanced strings.
+
+**Example**
+
+```
+Input: s = "RLRRLLRLRL"
+Output: 4
+Explanation: s can be split into "RL", "RRLL", "RL", "RL", each substring contains same number of 'L' and 'R'.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
+<h3 align='center'>Day 24 May 14th, 2021</h3>
 
 **Coding Challenge (goal-parser-interpretation.py)**: You own a Goal Parser that can interpret a string command. The command consists of an alphabet of "G", "()" and/or "(al)" in some order. The Goal Parser will interpret "G" as the string "G", "()" as the string "o", and "(al)" as the string "al". The interpreted strings are then concatenated in the original order.
 
