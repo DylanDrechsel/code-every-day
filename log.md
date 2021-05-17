@@ -2,6 +2,49 @@
 
 ---
 
+<h3 align='center'>Day 27 May 16th, 2021</h3>
+
+**Coding Challenge (range-sum-of-bts.py)**: Given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].
+
+**Example**
+
+```
+Input: root = [10,5,15,3,7,null,18], low = 7, high = 15
+Output: 32
+Explanation: Nodes 7, 10, and 15 are in the range [7, 15]. 7 + 10 + 15 = 32.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (maximum-nesting-depth-of-the-parentheses.py)**: A string is a valid parentheses string (denoted VPS) if it meets one of the following:
+
+It is an empty string "", or a single character not equal to "(" or ")",
+It can be written as AB (A concatenated with B), where A and B are VPS's, or
+It can be written as (A), where A is a VPS.
+We can similarly define the nesting depth depth(S) of any VPS S as follows:
+
+depth("") = 0
+depth(C) = 0, where C is a string with a single character not equal to "(" or ")".
+depth(A + B) = max(depth(A), depth(B)), where A and B are VPS's.
+depth("(" + A + ")") = 1 + depth(A), where A is a VPS.
+For example, "", "()()", and "()(()())" are VPS's (with nesting depths 0, 1, and 2), and ")(" and "(()" are not VPS's.
+
+Given a VPS represented as string s, return the nesting depth of s.
+
+**Example**
+
+```
+Input: s = "(1+(2*3)+((8)/4))+1"
+Output: 3
+Explanation: Digit 8 is inside of 3 nested parentheses in the string.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 26 May 16th, 2021</h3>
 
 **Coding Challenge (check-if-the-sentence-is-pangram.py)**: A pangram is a sentence where every letter of the English alphabet appears at least once.
