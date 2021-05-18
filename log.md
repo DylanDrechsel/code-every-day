@@ -2,7 +2,78 @@
 
 ---
 
-<h3 align='center'>Day 27 May 16th, 2021</h3>
+<h3 align='center'>Day 28 May 18th, 2021</h3>
+
+**Coding Challenge (check-if-two-string-arrays-are-equivalent.py)**: Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
+
+A string is represented by an array if the array elements concatenated in order forms the string.
+
+**Example**
+
+```
+Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
+Output: true
+Explanation:
+word1 represents string "ab" + "c" -> "abc"
+word2 represents string "a" + "bc" -> "abc"
+The strings are the same, so return true.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (design-an-ordered-stream.py)**: There is a stream of n (idKey, value) pairs arriving in an arbitrary order, where idKey is an integer between 1 and n and value is a string. No two pairs have the same id.
+
+Design a stream that returns the values in increasing order of their IDs by returning a chunk (list) of values after each insertion. The concatenation of all the chunks should result in a list of the sorted values.
+
+Implement the OrderedStream class:
+
+OrderedStream(int n) Constructs the stream to take n values.
+String[] insert(int idKey, String value) Inserts the pair (idKey, value) into the stream, then returns the largest possible chunk of currently inserted values that appear next in the order.
+
+**Example**
+
+```
+Input
+["OrderedStream", "insert", "insert", "insert", "insert", "insert"]
+[[5], [3, "ccccc"], [1, "aaaaa"], [2, "bbbbb"], [5, "eeeee"], [4, "ddddd"]]
+Output
+[null, [], ["aaaaa"], ["bbbbb", "ccccc"], [], ["ddddd", "eeeee"]]
+
+Explanation
+// Note that the values ordered by ID is ["aaaaa", "bbbbb", "ccccc", "ddddd", "eeeee"].
+OrderedStream os = new OrderedStream(5);
+os.insert(3, "ccccc"); // Inserts (3, "ccccc"), returns [].
+os.insert(1, "aaaaa"); // Inserts (1, "aaaaa"), returns ["aaaaa"].
+os.insert(2, "bbbbb"); // Inserts (2, "bbbbb"), returns ["bbbbb", "ccccc"].
+os.insert(5, "eeeee"); // Inserts (5, "eeeee"), returns [].
+os.insert(4, "ddddd"); // Inserts (4, "ddddd"), returns ["ddddd", "eeeee"].
+// Concatentating all the chunks returned:
+// [] + ["aaaaa"] + ["bbbbb", "ccccc"] + [] + ["ddddd", "eeeee"] = ["aaaaa", "bbbbb", "ccccc", "ddddd", "eeeee"]
+// The resulting order is the same as the order above.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (convert-binary-number-in-a-linked-list-to-integer.py)**: Given head which is a reference node to a singly-linked list. The value of each node in the linked list is either 0 or 1. The linked list holds the binary representation of a number.
+
+Return the decimal value of the number in the linked list.
+
+**Example**
+
+```
+Input: head = [1,0,1]
+Output: 5
+Explanation: (101) in base 2 = (5) in base 10
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
+<h3 align='center'>Day 27 May 17th, 2021</h3>
 
 **Coding Challenge (range-sum-of-bts.py)**: Given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].
 
