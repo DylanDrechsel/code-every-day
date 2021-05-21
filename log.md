@@ -2,6 +2,56 @@
 
 ---
 
+<h3 align='center'>Day 29 May 20th, 2021</h3>
+
+**Coding Challenge (replace-all-digits-with-characters.py)**: You are given a 0-indexed string s that has lowercase English letters in its even indices and digits in its odd indices.
+
+There is a function shift(c, x), where c is a character and x is a digit, that returns the xth character after c.
+
+For example, shift('a', 5) = 'f' and shift('x', 0) = 'x'.
+For every odd index i, you want to replace the digit s[i] with shift(s[i-1], s[i]).
+
+Return s after replacing all digits. It is guaranteed that shift(s[i-1], s[i]) will never exceed 'z'.
+
+**Example**
+
+```
+Input: s = "a1c1e1"
+Output: "abcdef"
+Explanation: The digits are replaced as follows:
+- s[1] -> shift('a',1) = 'b'
+- s[3] -> shift('c',1) = 'd'
+- s[5] -> shift('e',1) = 'f'
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (count-good-triplets.py)**: Given an array of integers arr, and three integers a, b and c. You need to find the number of good triplets.
+
+A triplet (arr[i], arr[j], arr[k]) is good if the following conditions are true:
+
+0 <= i < j < k < arr.length
+|arr[i] - arr[j]| <= a
+|arr[j] - arr[k]| <= b
+|arr[i] - arr[k]| <= c
+Where |x| denotes the absolute value of x.
+
+Return the number of good triplets.
+
+**Example**
+
+```
+Input: arr = [3,0,1,1,9,7], a = 7, b = 2, c = 3
+Output: 4
+Explanation: There are 4 good triplets: [(3,0,1), (3,0,1), (3,1,1), (0,1,1)].
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 28 May 18th, 2021</h3>
 
 **Coding Challenge (check-if-two-string-arrays-are-equivalent.py)**: Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
