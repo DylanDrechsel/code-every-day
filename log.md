@@ -2,6 +2,43 @@
 
 ---
 
+<h3 align='center'>Day 30 May 21th, 2021</h3>
+
+**Coding Challenge (sorting-the-sentence.js)**: A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each word consists of lowercase and uppercase English letters.
+
+A sentence can be shuffled by appending the 1-indexed word position to each word then rearranging the words in the sentence.
+
+For example, the sentence "This is a sentence" can be shuffled as "sentence4 a3 is2 This1" or "is2 sentence4 This1 a3".
+Given a shuffled sentence s containing no more than 9 words, reconstruct and return the original sentence.
+
+**Example**
+
+```
+Input: s = "is2 sentence4 This1 a3"
+Output: "This is a sentence"
+Explanation: Sort the words in s to their original positions "This1 is2 a3 sentence4", then remove the numbers.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (find-the-highest-altutide.js)**: There is a biker going on a road trip. The road trip consists of n + 1 points at different altitudes. The biker starts his trip on point 0 with altitude equal 0.
+
+You are given an integer array gain of length n where gain[i] is the net gain in altitude between points i​​​​​​ and i + 1 for all (0 <= i < n). Return the highest altitude of a point.
+
+**Example**
+
+```
+Input: gain = [-5,1,5,0,-7]
+Output: 1
+Explanation: The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 29 May 20th, 2021</h3>
 
 **Coding Challenge (replace-all-digits-with-characters.py)**: You are given a 0-indexed string s that has lowercase English letters in its even indices and digits in its odd indices.
