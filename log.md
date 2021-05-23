@@ -2,6 +2,47 @@
 
 ---
 
+<h3 align='center'>Day 31 May 22th, 2021</h3>
+
+**Coding Challenge (partitioning-into-minimum-number-of-deci-binary-numbers.js)**: A decimal number is called deci-binary if each of its digits is either 0 or 1 without any leading zeros. For example, 101 and 1100 are deci-binary, while 112 and 3001 are not.
+
+Given a string n that represents a positive decimal integer, return the minimum number of positive deci-binary numbers needed so that they sum up to n.
+
+**Example**
+
+```
+Input: n = "32"
+Output: 3
+Explanation: 10 + 11 + 11 = 32
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (minimim-number-for-operations-to-move-all-balls-to-each-box.js)**: You have n boxes. You are given a binary string boxes of length n, where boxes[i] is '0' if the ith box is empty, and '1' if it contains one ball.
+
+In one operation, you can move one ball from a box to an adjacent box. Box i is adjacent to box j if abs(i - j) == 1. Note that after doing so, there may be more than one ball in some boxes.
+
+Return an array answer of size n, where answer[i] is the minimum number of operations needed to move all the balls to the ith box.
+
+Each answer[i] is calculated considering the initial state of the boxes.
+
+**Example**
+
+```
+Input: boxes = "110"
+Output: [1,1,3]
+Explanation: The answer for each box is as follows:
+1) First box: you will have to move one ball from the second box to the first box in one operation.
+2) Second box: you will have to move one ball from the first box to the second box in one operation.
+3) Third box: you will have to move one ball from the first box to the third box in two operations, and move one ball from the second box to the third box in one operation.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 30 May 21th, 2021</h3>
 
 **Coding Challenge (sorting-the-sentence.js)**: A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each word consists of lowercase and uppercase English letters.
