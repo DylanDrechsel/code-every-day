@@ -2,6 +2,47 @@
 
 ---
 
+<h3 align='center'>Day 32 May 24th, 2021</h3>
+
+**Coding Challenge (find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.js)**: Given two binary trees original and cloned and given a reference to a node target in the original tree.
+
+The cloned tree is a copy of the original tree.
+
+Return a reference to the same node in the cloned tree.
+
+Note that you are not allowed to change any of the two trees or the target node and the answer must be a reference to a node in the cloned tree.
+
+Follow up: Solve the problem if repeated values on the tree are allowed.
+
+**Example**
+
+```
+
+Input: tree = [7,4,3,null,null,6,19], target = 3
+Output: 3
+Explanation: In all examples the original and cloned trees are shown. The target node is a green node from the original tree. The answer is the yellow node from the cloned tree.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+**Coding Challenge (count-the-number-of-consistent-strings.js.js)**: You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
+
+Return the number of consistent strings in the array words.
+
+**Example**
+
+```
+Input: allowed = "ab", words = ["ad","bd","aaab","baa","badab"]
+Output: 2
+Explanation: Strings "aaab" and "baa" are consistent since they only contain characters 'a' and 'b'.
+
+```
+
+**Coding Challenge Complete?:** Yes
+
+---
+
 <h3 align='center'>Day 31 May 22th, 2021</h3>
 
 **Coding Challenge (partitioning-into-minimum-number-of-deci-binary-numbers.js)**: A decimal number is called deci-binary if each of its digits is either 0 or 1 without any leading zeros. For example, 101 and 1100 are deci-binary, while 112 and 3001 are not.
