@@ -2,6 +2,16 @@
 
 ---
 
+<h3 align='center'>Day 33 May 25th, 2021</h3>
+
+**O'reilly Learning Online (o_reilly/data_structures/arrays)**: Started learning all about data data structures through javascript. Started a 45 hour course that will help me learn and understand the fundamentals of data structures in javascript. 
+
+Today I completed all the lessons on arrays and started the ones on 2d arrays. Im looking to have this course finished before day 70!
+
+I will still commit coding challenges everyone once in a while as I learn more about data structures.
+
+---
+
 <h3 align='center'>Day 32 May 24th, 2021</h3>
 
 **Coding Challenge (find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.js)**: Given two binary trees original and cloned and given a reference to a node target in the original tree.
