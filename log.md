@@ -2,6 +2,14 @@
 
 ---
 
+<h3 align='center'>Day 34 May 30th, 2021</h3>
+
+**O'reilly Learning Online (o_reilly/data_structures/arrays)**: Completed the lessions on 2d arrays and bounds checking them. Did a minesweeper challenge as practice for bounds checking.
+
+I am really starting to understand helper functions more and how useful they can really be when tackling bigger problems. Resulting in clearer more elegent code.
+
+---
+
 <h3 align='center'>Day 33 May 25th, 2021</h3>
 
 **O'reilly Learning Online (o_reilly/data_structures/arrays)**: Started learning all about data data structures through javascript. Started a 45 hour course that will help me learn and understand the fundamentals of data structures in javascript. 
