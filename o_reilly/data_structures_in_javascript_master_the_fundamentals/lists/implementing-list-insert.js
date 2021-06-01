@@ -60,6 +60,15 @@ class List {
         this.size++
     }
 
+    contains(value) {
+        for (let i = 0; i < this.size; i++) {
+            if (this.data[i] === value) {
+                return true
+            }
+        }
+        return false
+    }
+
 	toString() {
 		if (this.size === 0) {
 			return '[]';
@@ -80,10 +89,12 @@ ll.push(12);
 ll.push(13);
 ll.push(19);
 
-console.log(ll.toString());
-console.log(ll.data);
-
 ll.add(2, 9)
 
 console.log(ll.toString());
 console.log(ll.data);
+
+console.log(ll.contains(5))
+console.log(ll.contains(9));
+console.log(ll.contains(19));
+console.log(ll.contains(44));
