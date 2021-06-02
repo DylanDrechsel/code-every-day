@@ -2,6 +2,14 @@
 
 ---
 
+<h3 align='center'>Day 35 June 1st, 2021</h3>
+
+**O'reilly Learning Online (o_reilly/data_structures/lists)**: Completed all the lessons for list and the lesson on how to make all the method for your class.
+
+Also learned the differences between Arrays and Lists.
+
+---
+
 <h3 align='center'>Day 34 May 30th, 2021</h3>
 
 **O'reilly Learning Online (o_reilly/data_structures/arrays)**: Completed the lessions on 2d arrays and bounds checking them. Did a minesweeper challenge as practice for bounds checking.
