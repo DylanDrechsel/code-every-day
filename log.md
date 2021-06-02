@@ -2,6 +2,12 @@
 
 ---
 
+<h3 align='center'>Day 36 June 2nd, 2021</h3>
+
+**O'reilly Learning Online (o_reilly/data_structures/big-o-time-space-asymptomatic-analysis)**: Completed the chapter for Big O Time Complexity
+
+Wrote functions and examined the time complexity of each one.
+
 <h3 align='center'>Day 35 June 1st, 2021</h3>
 
 **O'reilly Learning Online (o_reilly/data_structures/lists)**: Completed all the lessons for list and the lesson on how to make all the method for your class.
