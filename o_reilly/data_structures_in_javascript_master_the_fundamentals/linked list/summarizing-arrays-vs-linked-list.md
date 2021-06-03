@@ -10,3 +10,6 @@ list.set(i, value)      O(N)
 removeNode              O(1)
 insertNode              O(1)
 insert rewriting .next refrences O(N)
+
+
+Good for dealing with BIG data
