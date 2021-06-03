@@ -23,6 +23,22 @@ while (current != null) {
 While the 'LinkedList' class is going to be more indepth than the 'ListNode' class. In the 'LinkedList' class we will have all out methods to interact with the linked list. The lesson went over how to code the basic methods for the 'LinkedList' class. 
 (ex. prepand -> adds node to the very begining of the linked list | length -> returns the length of the linked list | toString -> returns a string representation of the linked list)
 
+**get-at-index**: Learned how to get a specific index from a node in a linked list and return it. since we have to iterate over the linked list though to find the value it will be O(N) time complexity
+
+```
+get(index) {
+        let current = this.root;
+        let count = 0
+
+        while (current != null) {
+            if (count === index) return current.data;
+            count++
+            current = current.next;
+        }
+        return null
+    }
+```
+
 ---
 
 <h3 align='center'>Day 36 June 2nd, 2021</h3>
