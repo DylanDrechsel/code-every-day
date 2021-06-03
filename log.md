@@ -6,7 +6,7 @@
 
 **O'reilly Learning Online (o_reilly/data_structures/linked-list)**:
 
-<h4><b>coding-a-linked-list</b></h4>: Learned the very basics about how to code a linked list. A node in a linked list will always have 2 elements, the data called "data", and a refrences to the next node called "next". Because of this we have a traverse the linked list differently than we would a list or array. Luckily there is a basic structure that can be used alot.
+**coding-a-linked-list**: Learned the very basics about how to code a linked list. A node in a linked list will always have 2 elements, the data called "data", and a refrences to the next node called "next". Because of this we have a traverse the linked list differently than we would a list or array. Luckily there is a basic structure that can be used alot.
 
 ```
 let current = node
