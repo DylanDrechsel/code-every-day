@@ -16,8 +16,14 @@ class LinkedList {
         this.root = null
     }
 
+    // returns true of false if there are any nodes in a list
+    // O(1) constant time
+    isEmpty() {
+        return this.rool === null
+    }
+
     // add a value to the front of the list
-    // 0(1) constant time
+    // O(1) constant time
     prepend(data) {
         let node = new ListNode(data)
         node.next = this.root
@@ -38,7 +44,7 @@ class LinkedList {
     }
 
     // returns a string representation of the list
-    // 0(N) linear time
+    // O(N) linear time
     toString() {
         let result = 'root -> '
         let current = this.root

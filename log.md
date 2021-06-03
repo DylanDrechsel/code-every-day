@@ -18,6 +18,11 @@ while (current != null) {
 
 **linked-list-manipulation-challenge**: Completed the challenges to create remove, insert, and other methods that would need to be used on a linked list
 
+**linked-list-class**: Learned how to make the 'ListNode' and 'LinkedList' class. The 'ListNode' class is a very simple class to make. It will have no methods and only be used to create a node with elements 'data' and 'next'
+
+While the 'LinkedList' class is going to be more indepth than the 'ListNode' class. In the 'LinkedList' class we will have all out methods to interact with the linked list. The lesson went over how to code the basic methods for the 'LinkedList' class. 
+(ex. prepand -> adds node to the very begining of the linked list | length -> returns the length of the linked list | toString -> returns a string representation of the linked list)
+
 ---
 
 <h3 align='center'>Day 36 June 2nd, 2021</h3>
