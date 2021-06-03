@@ -39,6 +39,43 @@ get(index) {
     }
 ```
 
+**remove-at-index**: Learned how to remove a node at a specific index. To do this were going to need a function called 'removeAtIndex(index)' which will need two helper functions to complete the process.
+
+```
+removeAtIndex(index) {
+        // prevent people from trying to remove nodes at non-existant indexes
+        if (index < 0 || index >= this.size) return
+
+        if (index === 0) this.removeFront()
+        else this.removeRest(index)
+    
+        this.size--
+    }
+```
+
+This function will check the value of the 'index' variable and launch the proper helper function. I also have a 'guard' in this function to make sure the user cannot access and non-existant index.
+
+```
+removeFront() {
+        if(!this.isEmpty()) {
+            this.root = this.root.next
+        }
+    }
+
+    removeRest(index) {
+        let current = this.root
+        let i = 0
+
+        while (current !== null && i < index - 1) {
+            current = current.next
+            i++
+        }
+        current.next = current.next.next
+    }
+```
+
+the 'removeFront' function is a simple function that is used to remove the first element in the linked list. While the 'removeRest' function will iterate through the linked list and remove the index that was requested.
+
 ---
 
 <h3 align='center'>Day 36 June 2nd, 2021</h3>
