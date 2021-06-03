@@ -98,7 +98,7 @@ addIndex(index, value) {
 	}
 ```
 
-If the index > 0 I first find the node and set it the node before it to a variable called 'current' then create a new node, called 'node', with the value passed through. After that were going to set the 'node.next' to 'current.next', which will cause node to point to the next value in the linked list. However, we still have both 'node' and 'current' pointing at the same node. We then need to set 'current.next' to 'node' which will fix that problem.
+If the index > 0 first find the node and set the node before it to a variable called 'current' then create a new node, called 'node', with the 'value' variable passed through. After that were going to set the 'node.next' to 'current.next', which will cause node to point to the next value in the linked list. However, we still have both 'node' and 'current' pointing at the same node. We then need to set 'current.next' to 'node' which will fix that problem.
 
 ---
 
