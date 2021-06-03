@@ -76,6 +76,30 @@ removeFront() {
 
 the 'removeFront' function is a simple function that is used to remove the first element in the linked list. While the 'removeRest' function will iterate through the linked list and remove the index that was requested.
 
+**add-at-index**: Learned how to add a value at a specific index in a linked list. I wrote a function called 'addAtIndex' which took two arguements, 'index' and 'value'. The 'index' variable dictates the index that it will placed at while the 'value' variable will be the data that will be placed at the index.
+
+```
+addIndex(index, value) {
+		if (index === 0) this.prepend(value);
+		else {
+			let current = this.root;
+			let i = 0;
+
+			while (current !== null && i < index - 1) {
+				i++;
+				current = current.next;
+			}
+
+			let node = new ListNode(value);
+			node.next = current.next;
+			current.next = node;
+		}
+		this.size++;
+	}
+```
+
+If the index > 0 I first find the node and set it the node before it to a variable called 'current' then create a new node, called 'node', with the value passed through. After that were going to set the 'node.next' to 'current.next', which will cause node to point to the next value in the linked list. However, we still have both 'node' and 'current' pointing at the same node. We then need to set 'current.next' to 'node' which will fix that problem.
+
 ---
 
 <h3 align='center'>Day 36 June 2nd, 2021</h3>
