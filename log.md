@@ -2,11 +2,29 @@
 
 ---
 
+<h3 align='center'>Day 37 June 3es, 2021</h3>
+
+**O'reilly Learning Online (o_reilly/data_structures/linked-list)**:
+
+**coding-a-linked-list**: Learned the very basics about how to code a linked list. A node in a linked list will always have 2 elements, the data called "data", and a refrences to the next node called "next". Because of this we have a traverse the linked list differently than we would a list or array. Luckily there is a basic structure that can be used alot.
+
+```
+let current = node
+
+while (current != null) {
+    current = current.next
+}
+```
+
+---
+
 <h3 align='center'>Day 36 June 2nd, 2021</h3>
 
 **O'reilly Learning Online (o_reilly/data_structures/big-o-time-space-asymptomatic-analysis)**: Completed the chapter for Big O Time Complexity
 
 Wrote functions and examined the time complexity of each one.
+
+---
 
 <h3 align='center'>Day 35 June 1st, 2021</h3>
 
