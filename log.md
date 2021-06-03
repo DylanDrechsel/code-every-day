@@ -2,7 +2,7 @@
 
 ---
 
-<h3 align='center'>Day 37 June 3es, 2021</h3>
+<h3 align='center'>Day 37 June 3rd, 2021</h3>
 
 **O'reilly Learning Online (o_reilly/data_structures/linked-list)**:
 
