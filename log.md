@@ -16,6 +16,8 @@ while (current != null) {
 }
 ```
 
+**linked-list-manipulation-challenge**: Completed the challenges to create remove, insert, and other methods that would need to be used on a linked list
+
 ---
 
 <h3 align='center'>Day 36 June 2nd, 2021</h3>
