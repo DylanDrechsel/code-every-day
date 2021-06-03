@@ -32,6 +32,12 @@ class LinkedList {
 		this.size++;
 	}
 
+	// O(N) linear time
+	// addAtIndex must visit every node to get to the end of the list
+	append(data) {
+		this.addAtIndex(this.size - 1, index);
+	}
+
 	// return the size of the list
 	// O(N) linear time
 	length() {
@@ -99,23 +105,25 @@ class LinkedList {
 		current.next = current.next.next;
 	}
 
-    addIndex(index, value) {
-        if (index === 0) this.prepend(value)
-        else {
-            let current = this.root;
-            let i = 0
+	// O(N) linear time
+	// must visit every node to get to the end of the list
+	addIndex(index, value) {
+		if (index === 0) this.prepend(value);
+		else {
+			let current = this.root;
+			let i = 0;
 
-            while (current !== null && i < index - 1) {
-                i++
-                current = current.next
-            }
+			while (current !== null && i < index - 1) {
+				i++;
+				current = current.next;
+			}
 
-            let node = new ListNode(value)
-            node.next = current.next
-            current.next = node
-        }
-        this.size++
-    }
+			let node = new ListNode(value);
+			node.next = current.next;
+			current.next = node;
+		}
+		this.size++;
+	}
 }
 
 let l2 = new LinkedList();
