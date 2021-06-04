@@ -20,7 +20,7 @@ class LinkedList {
 	// returns true of false if there are any nodes in a list
 	// O(1) constant time
 	isEmpty() {
-		return this.rool === null;
+		return this.root === null;
 	}
 
 	// add a value to the front of the list
