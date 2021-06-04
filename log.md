@@ -20,6 +20,20 @@ Note that we returned a ListNode object ans, such that:
 ans.val = c, ans.next.val = d, ans.next.next.val = e, and ans.next.next.next = NULL.
 ```
 
+**Coding Challenge (delete-the-middle-of-linked-list.js)**: Given a singly linked list, delete middle of the linked list. For example, if given linked list is 1->2->3->4->5 then linked list should be modified to 1->2->4->5.
+If there are even nodes, then there would be two middle nodes, we need to delete the second middle element. For example, if given linked list is 1->2->3->4->5->6 then it should be modified to 1->2->3->5->6.
+If the input linked list is NULL or has 1 node, then it should return NULL
+
+**Example** 
+
+```
+Input:
+LinkedList: 1->2->3->4->5
+Output: 1 2 4 5
+```
+
+---
+
 <h3 align='center'>Day 37 June 3rd, 2021</h3>
 
 **O'reilly Learning Online (o_reilly/data_structures/linked-list)**:
