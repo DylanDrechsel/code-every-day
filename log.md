@@ -2,6 +2,24 @@
 
 ---
 
+<h3 align='center'>Day 38 June 4th, 2021</h3>
+
+Today I am reviewing what I learned yesterday with linked list coding challenges.
+
+**Coding Challenge (find-the-middle-of-a-given-linked-list.js)**: Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+
+If there are two middle nodes, return the second middle node.
+
+**Example** 
+
+```
+Input: [a,b,c,d,e]
+Output: Node 3 from this list (Serialization: [c,d,e])
+The returned node has value c.  (The judge's serialization of this node is [c,d,e]).
+Note that we returned a ListNode object ans, such that:
+ans.val = c, ans.next.val = d, ans.next.next.val = e, and ans.next.next.next = NULL.
+```
+
 <h3 align='center'>Day 37 June 3rd, 2021</h3>
 
 **O'reilly Learning Online (o_reilly/data_structures/linked-list)**:
