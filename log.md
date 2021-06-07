@@ -4,6 +4,24 @@
 
 <h3 align='center'>Day 38 June 4th, 2021</h3>
 
+Today I am reviewing what I learned with linked list coding challenges.
+
+**Coding Challenge (add-one-to-a-number-represented-as-a-linked-list.js)**: Number is represented in linked list such that each digit corresponds to a node in linked list.
+
+Add 1 to it. For example 1999 is represented as (1-> 9-> 9 -> 9) and adding 1 to it should change it to (2->0->0->0) 
+
+**Example** 
+
+```
+List is 123456789
+
+Resultant list is 234567890
+```
+
+---
+
+<h3 align='center'>Day 38 June 4th, 2021</h3>
+
 Today I am reviewing what I learned yesterday with linked list coding challenges.
 
 **Coding Challenge (find-the-middle-of-a-given-linked-list.js)**: Given a non-empty, singly linked list with head node head, return a middle node of linked list.
