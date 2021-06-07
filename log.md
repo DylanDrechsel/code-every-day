@@ -2,7 +2,7 @@
 
 ---
 
-<h3 align='center'>Day 38 June 4th, 2021</h3>
+<h3 align='center'>Day 39 June 7th, 2021</h3>
 
 Today I am reviewing what I learned with linked list coding challenges.
 
@@ -16,6 +16,15 @@ Add 1 to it. For example 1999 is represented as (1-> 9-> 9 -> 9) and adding 1 to
 List is 123456789
 
 Resultant list is 234567890
+```
+
+**Coding Challenge (reverse-a-linked-list-in-groups-of-given-size.js)**: Given a linked list of size N. The task is to reverse every k nodes (where k is an input to the function) in the linked list.
+
+**Example** 
+
+```
+Input: 1->2->3->4->5->6->7->8->NULL, K = 3
+Output: 3->2->1->6->5->4->8->7->NULL
 ```
 
 ---
