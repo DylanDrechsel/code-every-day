@@ -2,6 +2,14 @@
 
 ---
 
+<h3 align='center'>Day 40 June 9th, 2021</h3>
+
+**O'reilly Learning Online (o_reilly/data_structures/stacks)**:
+
+**intro-to-stacks**: In the intro lesson for stacks I learned what stacks are good at. Stacks will not have a random access but because of that the methods they do have seem to be a constant 0(1) time. Stacks are ideal for undo/redo functions. 
+
+---
+
 <h3 align='center'>Day 39 June 7th, 2021</h3>
 
 Today I am reviewing what I learned with linked list coding challenges.
