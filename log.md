@@ -31,6 +31,8 @@ grow() {
     }
 ```
 
+**balance-parenthesis-challenge**: In this lesson I tackled the balance parenthsis challenge.
+
 ---
 
 <h3 align='center'>Day 39 June 7th, 2021</h3>
