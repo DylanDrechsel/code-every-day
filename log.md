@@ -8,6 +8,17 @@
 
 **intro-to-stacks**: In the intro lesson for stacks I learned what stacks are good at. Stacks will not have a random access but because of that the methods they do have seem to be a constant 0(1) time. Stacks are ideal for undo/redo functions. 
 
+**linked-list-stack**: In this lessson I learned how to code and stack using a linked list. I coded a method called 'push' which works basically the same to the .push method in javascript. I used this method to fill the stack with some data. 
+
+Then to console.log the data from the stack well use a while loop similar to the one in the linked list. Except we have to have a method called 'isEmpty' that returns wether of not the stack is empty.
+
+```
+while (!ss.isEmpty()) {
+    let value = ss.pop() 
+    console.log(value)
+}
+```
+
 ---
 
 <h3 align='center'>Day 39 June 7th, 2021</h3>
