@@ -19,6 +19,18 @@ while (!ss.isEmpty()) {
 }
 ```
 
+**stack-out-of-array**: In this lesson I learned how to make a stack using an array instead of a linked list. The methods and time complexities are similar. However, since an array is a set size we need to add a new method to the data structure called 'grow', which will take care of doubling the size of the array when it becomes full.
+
+```
+grow() {
+        let data = new Array(this.data.length * 2)
+        for (let i = 0; i < this.data.length; i++) {
+            data[i] = this.data[i]
+        }
+        this.data = data
+    }
+```
+
 ---
 
 <h3 align='center'>Day 39 June 7th, 2021</h3>
