@@ -67,8 +67,8 @@ const efficientCondense = (sequence) => {
     return sequence.join('')
 }
 
-// let sequence = randomSequence(100)
-let sequence = '54322346';
+let sequence = randomSequence(100)
+// let sequence = '54322346';
 let condensed = efficientCondense(sequence);
 console.log(sequence)
 console.log(condensed)

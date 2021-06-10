@@ -8,6 +8,8 @@
 
 **parent-bracket-curly-balance-solution.js**: Sloved the parent bracket curly balance coding challenge using a stack.
 
+**condense-challenge**: Completed the condense challenge two different ways. The first way I completed it with just javascript logic. The second time I decided to try the challenge using a stack instead and was able to create a much cleaner solution. Both solution are in the file.
+
 ---
 
 <h3 align='center'>Day 40 June 9th, 2021</h3>
