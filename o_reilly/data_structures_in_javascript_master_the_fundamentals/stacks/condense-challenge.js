@@ -42,11 +42,33 @@ const condense = (sequence) => {
 }
 
 const efficientCondense = (sequence) => {
+    // convert the sequence of numbers into a stack-like array
+    sequence = sequence.split("")
 
+    // create a second stack and add one thing from the sequence to this stack
+    let stack = [sequence.pop()]
+
+    while (sequence.length > 0) {
+        let left = sequence.pop()
+        let right = stack.pop()
+
+        if (left !== right) {
+            stack.push(right)
+            stack.push(left)
+        }
+    }
+
+    // pops everything one-by-one off the new stack back onto
+    // the first stack to undo the reverse order
+    while (stack.length > 0) {
+        sequence.push(stack.pop())
+    }
+
+    return sequence.join('')
 }
 
 // let sequence = randomSequence(100)
 let sequence = '54322346';
-let condensed = condense(sequence);
+let condensed = efficientCondense(sequence);
 console.log(sequence)
 console.log(condensed)
