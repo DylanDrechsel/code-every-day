@@ -31,7 +31,7 @@ grow() {
     }
 ```
 
-**balance-parenthesis-challenge**: In this lesson I tackled the balance parenthsis challenge.
+**balance-parenthesis-challenge**: In this lesson I tackled the balance parenthsis challenge using a stack.
 
 ---
 
