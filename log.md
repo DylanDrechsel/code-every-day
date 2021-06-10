@@ -6,6 +6,14 @@
 
 **O'reilly Learning Online (o_reilly/data_structures/stacks)**:
 
+**parent-bracket-curly-balance-solution.js**: Sloved the parent bracket curly balance coding challenge using a stack.
+
+---
+
+<h3 align='center'>Day 40 June 9th, 2021</h3>
+
+**O'reilly Learning Online (o_reilly/data_structures/stacks)**:
+
 **intro-to-stacks**: In the intro lesson for stacks I learned what stacks are good at. Stacks will not have a random access but because of that the methods they do have seem to be a constant 0(1) time. Stacks are ideal for undo/redo functions. 
 
 **linked-list-stack**: In this lessson I learned how to code and stack using a linked list. I coded a method called 'push' which works basically the same to the .push method in javascript. I used this method to fill the stack with some data. 
