@@ -22,6 +22,15 @@
 // [A, B, C, D, E, F] n=4 returns F
 ```
 
+**sieve-of-erathosthense-challenge**: Completed the sieve of erathosthense challenge using a Queue
+
+```
+// accept an integer N and retirn all the prime numbers
+// from 2 up to (but not including) N. Return the prime
+// numbers as an array. Use two queues to implement the
+// sieve of Eratosthense.
+```
+
 ---
 
 <h3 align='center'>Day 40 June 9th, 2021</h3>
