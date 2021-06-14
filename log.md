@@ -6,7 +6,9 @@
 
 **O'reilly Learning Online (o_reilly/data_structures/queues)**:
 
-**intro-to-queues**: In the intro lesson to queues I learned what a queue was and the time complexities of insertion and deletion.
+**intro-to-queues**: In the intro lesson to queues I learned what a queue was and the time complexities of insertion and deletion. Queue has no middle access
+
+**inplementing-a-queue**: Learned how to code a queue using a linked list. The method of a queue seem to be quite limiting.
 
 ---
 
