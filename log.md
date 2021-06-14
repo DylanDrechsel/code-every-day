@@ -10,6 +10,18 @@
 
 **inplementing-a-queue**: Learned how to code a queue using a linked list. The method of a queue seem to be quite limiting.
 
+**josephus-challenge**: I sloved the josephus coding challenge using a queue.
+
+```
+// Write a function that accepts an array of choices
+// and an integer n. You should cycle through the choices starting at the beginning
+// and counting to n. Everytime n is reached one choice should be removed.
+// continue this process counting to n and removing the choice at that
+// count until only one choice is left. return that choice.
+// [A, B, C, D, E, F] n=3 returns B
+// [A, B, C, D, E, F] n=4 returns F
+```
+
 ---
 
 <h3 align='center'>Day 40 June 9th, 2021</h3>
