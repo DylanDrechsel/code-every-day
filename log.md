@@ -4,6 +4,14 @@
 
 <h3 align='center'>Day 40 June 9th, 2021</h3>
 
+**O'reilly Learning Online (o_reilly/data_structures/queues)**:
+
+**intro-to-queues**: In the intro lesson to queues I learned what a queue was and the time complexities of insertion and deletion.
+
+---
+
+<h3 align='center'>Day 40 June 9th, 2021</h3>
+
 **O'reilly Learning Online (o_reilly/data_structures/stacks)**:
 
 **parent-bracket-curly-balance-solution.js**: Sloved the parent bracket curly balance coding challenge using a stack.
