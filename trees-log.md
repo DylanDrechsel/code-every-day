@@ -33,3 +33,9 @@ completed the tree sum challenge problem
 <h3 align='center'>tree contains challenge notes</h3>
 
 completed the tree contains challenge problem
+
+---
+
+<h3 align='center'>tree size leaves challenge notes</h3>
+
+completed the tree size leaves challenge problem
