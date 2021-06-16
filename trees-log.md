@@ -39,3 +39,11 @@ completed the tree contains challenge problem
 <h3 align='center'>tree size leaves challenge notes</h3>
 
 completed the tree size leaves challenge problem
+
+---
+
+<h3 align='center'>tree min max height challenge notes</h3>
+
+completed the tree min max height challenge problem
+
+---
